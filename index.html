@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <h1>Rudraksh</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h3>About Me</h3>
+      <img src="./Rudraksh.jpg" alt="profile photo" />
+      <p>
+        I am passionate about learning web development and building creative
+        projects.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h3>Technical Skills</h3>
+      <table border="1" cellpadding="5">
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Learning</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="projects">
+      <h3>My Projects</h3>
+      <div class="project-box">
+        <h5>Project 1</h5>
+        <p>A simple HTML & CSS webpage.</p>
+      </div>
+      <div class="project-box">
+        <h5>Project 2</h5>
+        <p>Another awesome mini project.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h3>Contact Me</h3>
+
+      <form>
+        <table>
+          <tr>
+            <td>
+              <label>Name:</label>
+            </td>
+            <td>
+              <input type="text" placeholder="Enter your name" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Email:</label></td>
+            <td>
+              <input type="email" placeholder="Enter your email" required />
+            </td>
+          </tr>
+          <tr>
+            <td><label>Message:</label></td>
+            <td>
+              <textarea placeholder="Enter your message" required></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2"><button type="submit">Send</button></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+
+    <a href="#top" id="backtotop">Back to Top</a>
+
+    <footer>
+      <p>© 2025 My Portfolio</p>
+    </footer>
+  </body>
+</html>
